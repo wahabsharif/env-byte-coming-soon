@@ -1,6 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,8 +17,8 @@
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
   /* background: linear-gradient(
       to bottom,
       transparent,
@@ -27,11 +27,6 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
-.button{
-  @apply p-2 font-semibold rounded-lg border-solid border-2 transition ease-in-out
-   border-slate-800 dark:border-gray-900 
-   text-slate-800 dark:text-stone-700 
-   hover:text-gray-800 
-   hover:bg-slate-200 dark:bg-slate-200
-   dark:hover:text-gray-900
+.button {
+  @apply p-2 font-semibold transition ease-in-out border-2 border-solid rounded-lg border-slate-800 dark:border-gray-900 text-slate-800 dark:text-stone-700 hover:text-gray-800 hover:bg-slate-200 dark:bg-slate-200 dark:hover:text-gray-900;
 }
