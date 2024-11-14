@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="icon" href="favicon.ico" />
       </Head>
       <body
-        className={`${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
+        className={`${inter.className} bg-[#b1ede6]	min-h-screen dark:bg-[#093832] `}
       >
         <ThemeProvider
           attribute="class"
