@@ -2,7 +2,7 @@ const currentYear = new Date().getFullYear();
 const data = {
   sitename: "Env Byte",
   sitetagline: "Something great is on the way!",
-  siteurl: "http://envbyte.com/",
+  siteurl: "https://envbyte.com/",
   innovatedBy: "https://wahabsharif.me/",
   sitelogo: "",
   title: "Coming Soon!",
