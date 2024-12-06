@@ -3,6 +3,7 @@ const data = {
   sitename: "Env Byte",
   sitetagline: "Something great is on the way!",
   siteurl: "http://envbyte.com/",
+  innovatedBy: "https://wahabsharif.me/",
   sitelogo: "",
   title: "Coming Soon!",
   description:
